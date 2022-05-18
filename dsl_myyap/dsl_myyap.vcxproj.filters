@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\expressions">
+      <UniqueIdentifier>{e2a31740-1c19-4aa5-92a7-eaa8a364476a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\expressions">
+      <UniqueIdentifier>{6c247c9e-c850-4665-87a5-55bc65415442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\var">
+      <UniqueIdentifier>{62741de6-5692-4181-bdf2-8d680fcba8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\var">
+      <UniqueIdentifier>{3ed91d28-27a8-4ae6-9acc-83018ac2dcc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lexer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenType.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpInt.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpBool.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpDouble.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpVar.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpFunc.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpIf.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpOp.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpString.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpWhile.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpBody.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpretator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="VarString.h">
+      <Filter>Файлы заголовков\var</Filter>
+    </ClInclude>
+    <ClInclude Include="VarInt.h">
+      <Filter>Файлы заголовков\var</Filter>
+    </ClInclude>
+    <ClInclude Include="VarDouble.h">
+      <Filter>Файлы заголовков\var</Filter>
+    </ClInclude>
+    <ClInclude Include="VarBool.h">
+      <Filter>Файлы заголовков\var</Filter>
+    </ClInclude>
+    <ClInclude Include="Var.h">
+      <Filter>Файлы заголовков\var</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpVarAssign.h">
+      <Filter>Файлы заголовков\expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpretatorArgs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenType.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpInt.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpBool.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpDouble.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpVar.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpIf.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpFunc.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpOp.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpString.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpWhile.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpBody.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpretator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Var.cpp">
+      <Filter>Исходные файлы\var</Filter>
+    </ClCompile>
+    <ClCompile Include="VarBool.cpp">
+      <Filter>Исходные файлы\var</Filter>
+    </ClCompile>
+    <ClCompile Include="VarString.cpp">
+      <Filter>Исходные файлы\var</Filter>
+    </ClCompile>
+    <ClCompile Include="VarInt.cpp">
+      <Filter>Исходные файлы\var</Filter>
+    </ClCompile>
+    <ClCompile Include="VarDouble.cpp">
+      <Filter>Исходные файлы\var</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpVarAssign.cpp">
+      <Filter>Исходные файлы\expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpretatorArgs.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Code.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
